@@ -4,9 +4,9 @@ Let's make the Ikea Vindriktning air quality sensor a little smarter. Here is th
 
 ## prerequisite
 
-ESP32 - Mini D1<br>
-ESP32 - S2 mini with ESPHOME
-Ikea Vindriktning
+ESP32 - S2 mini (any ESP32/ESP8266 would work, but i had these lying around)<br>
+Ikea Vindriktning<br>
+PH0 Philips Screwdriver (long-ish)
 
 # Install
 
