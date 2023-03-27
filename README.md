@@ -1,4 +1,4 @@
-# Vindriktning
+# Vindriktning with Esphome
 
 Let's make the Ikea Vindriktning air quality sensor a little smarter. Here is the matching completely over-engineered firmware.
 
