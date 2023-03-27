@@ -27,9 +27,9 @@ GPIO17 -> reset<br>
 
 ## Esphome
 Flashing is easy, add your wifi credentials to the yml file and run:
-...
-esphome run esp_ikea.yml
-...
+```
+esp``home run esp_ikea.yml
+```
 
 For the ESPS2mini you need to press the buttons RST + BOOT together, then release the RST button to enter boot mode.
 
