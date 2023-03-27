@@ -1,4 +1,6 @@
 # Vindriktning with Esphome
+(forked from https://github.com/sharandac/vindriktning)
+
 
 Let's make the Ikea Vindriktning air quality sensor a little smarter. Here is the matching completely over-engineered firmware.
 
@@ -22,6 +24,18 @@ GPIO17 -> reset<br>
 ![step 3](images/IMG_20230311_173259.jpg)
 ![step 4](images/IMG_20230311_173308.jpg)
 ![step 2](images/IMG_20230311_173335.jpg)
+
+## Esphome
+Flashing is easy, add your wifi credentials to the yml file and run:
+...
+esphome run esp_ikea.yml
+...
+
+For the ESPS2mini you need to press the buttons RST + BOOT together, then release the RST button to enter boot mode.
+
+## Integration in Homeassistant
+Once flashed you will find the sensor within homeassistant's esphome integration (add new instance with the IP address of the just flashed device)
+
 
 # Contributors
 
